@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background: #2A2A2A;
+    border-bottom: 2px solid #6A4FDC;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #A78DF0;
+    margin-left: 1rem;
+  }
+  
+  header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  header nav a:hover {
+    color: #A78DF0;
+    text-shadow: 0px 0px 10px #A78DF0;
+  }
+  
+  header .cta-btn {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #6A4FDC, #A78DF0);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(106, 79, 220, 0.5);
+    transition: transform 0.2s ease;
+  }
+  
+  header .cta-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem;
+    background: #121212;
+    height: 50vh; 
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 .highlight {
+    background: linear-gradient(135deg, #6A4FDC, #A78DF0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #AAAAAA;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content .cta-btn {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #6A4FDC, #A78DF0);
+    box-shadow: 0px 4px 6px rgba(106, 79, 220, 0.5);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .hero-content .cta-btn:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .hero-image {
+    display: none; 
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background: #2A2A2A;
+    border: 2px solid #6A4FDC;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 10px 20px rgba(106, 79, 220, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 30px rgba(106, 79, 220, 0.5);
+  }
+  
+  .card .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #A78DF0;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #AAAAAA;
+  }
+  
+  .card .card-footer {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #6A4FDC;
+    font-weight: bold;
+    cursor: pointer;
+  }
+   /* Footer */
+   footer {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #6A4FDC;
+    margin-top: auto; 
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #AAAAAA;
+  }
+  
+  footer .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+  }
+  
+  footer .social-icons i {
+    font-size: 1.5rem;
+    color: #6A4FDC;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons i:hover {
+    color: #A78DF0;
+  }
+   
